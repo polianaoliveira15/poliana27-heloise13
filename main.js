@@ -1,3 +1,4 @@
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/estilos.css">
-    document.querySelector('.tecla_pom')
+function tocaSomPom(){
+    document.querySelector('#som_tecla_pom').play();
+}
+document.querySelector('.tecla_pom').oneclick = tocaSomPom
