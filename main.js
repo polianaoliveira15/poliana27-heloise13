@@ -10,3 +10,10 @@ const listaDeTeclas = document.querySelectorAll(".tecla");
 //Invocando a função tocaSomPom a partir do item "0". 1°botão.
 listaDeTeclas[0].onclick = tocaSomPom;
 
+//Criando referência variável "contador" iniciando = 0
+let contador = 0;
+
+//Estrutura de repetição "white" significa enquanto algo acontecer
+while();{
+
+}
