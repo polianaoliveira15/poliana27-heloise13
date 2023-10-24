@@ -14,6 +14,9 @@ listaDeTeclas[0].onclick = tocaSomPom;
 let contador = 0;
 
 //Estrutura de repetição "white" significa "enquanto algo acontecer"
-while();{
-
+while(contador < 9);{
+    listaDeTeclas[contador].onclick = tocaSomPom;
+    contador = contador + 1;
+    console.log(contador);
+    
 }
